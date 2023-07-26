@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: blue;
+}
+
+.item-parent{
+    justify-content: center;
+    font-size: 12px;
+    display: flex;
+    margin-top: 30px;
+    
+ }
+ 
+ .item{
+   width: 400px;
+   padding: 8px;
+   background-color: rgb(135, 171, 248);
+   border-radius: 5px;
+   
+ }
+ .item p{
+    font-size: 15px;
+ }
+
+ button{
+    background-color: rgb(236, 165, 33);
+    padding: 8px 20px;
+    border: none;
+    border-radius: 20px;
+    position: absolute;
+    right: 60px;
+    top: 50px;
+    color: white;
+ }
